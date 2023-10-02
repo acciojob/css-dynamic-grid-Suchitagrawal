@@ -5,13 +5,15 @@
 	width: 200px;
 	border-radius: 5px;
 	font-size: 40px;
-	display: flex;
+	margin: 10px;
+    display: flex;
+	flex-direction: row;
+	align-items: center;
 	justify-content: center;
-
-	
 }
 .grid-container{
-	display: flex;
-	justify-content: space-around;
+	display: grid;
+	gap;
+	justify-content: left;
 	flex-wrap: wrap;
 }
